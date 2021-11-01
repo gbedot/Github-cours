@@ -1,3 +1,3 @@
 # github-cours
 
-Ajoouer un `.gitignore`
+Ajouter un `.gitignore`
