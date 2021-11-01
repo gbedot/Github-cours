@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours Git-Hub</title>
+    <link rel="shortcut icon" href="logo.png">
+    <h1>Cours Git-Hub</h1>    
+</head>
+<body> 
+    <h2>Travailler seul</h2>
+    <h3>Pré-requis</h3>
+    <p>Avoir des notions de base de shell Linux</p>
+    <h3>Installation</h3>
+    <p>Installer git sur le poste de travail à partir de <a href="https://git-scm.com/downloads" target="_blank">Lien de téléchargement Git</a></p>
+ 
+    <h3>Configuration de Git</h3>   
+    <ul>
+        <li><strong>git config --global user.name </strong><em>->Configurer son nom</em></li>
+        <li><strong>git config --global user.email</strong><em>->Configurer son mail</em></li>   
+        <li><strong>git config --global --list</strong><em>->Affiche la configuration du compte</em></li>   
+    </ul>
+
+
+    <h3>Gestion de projet</h3>
+    <h4>Créer son projet en gestion Local</h4>
+    <ul>
+        <li>Creér son répertoire projet et se placer dedans </li>
+        <li><strong>git init </strong><em>->Permet d'initialiser un repository</em></li>
+    </ul>
+
+
+    <h4>Créer et mettre à jour son Repository en ligne</h4>
+    <ol>
+        <li>Création de son compte sur Github <a href="https://github.com" target="_blank">Créer son compte ici</a></li>
+        <li>Création du Repository sur Github</li>
+        <li>Se placer sur devWorkingDirectory du poste de travail</li>
+        <li>Clonner le Repository sur le poste de travail</li>
+
+    </ol>
+
+    <h3>Commande à retenir</h3> 
+    <ul>
+        <li><strong>git status </strong><em>->Voir les changements apportés</em></li>
+        <li><strong>git diff </strong><em>->Voir les différences</em></li>
+        <li><strong>git add . </strong><em>->Ajouter les modifications</em></li>
+        <li><strong>git commit -m</strong> "explication du commit" <em>->Commiter les modifications</em></li>
+        <li><strong>git push -u origin master </strong><em>->Repousser sur le master en ligne</em></li>
+        <li><strong>git log </strong><em>->Lister les commits</em></li>
+        <li><strong>git clone </strong>lien-github.com <em>->Récupérer son travail depuis le dépôt</em></li>
+        <li><strong>git show </strong>sha-1 <em>->Voir commit spécifique au sha-1</em></li>
+        <li><strong>git checkout </strong>sha-1 <em>->Se déplacer sur les sources d'un ancien commit</em></li>
+        <li><strong>git checkout </strong>master <em>->Se déplacer sur les sources du master</em></li>
+    </ul>  
+
+
+    <h3>Clean Cheat Sheet</h3>
+    <img src="cleanCheatSheet.png" width="75%">   
+
+    <h2>Travailler en équipe</h2>
+
+    
+    <h3>Clean Cheat Sheet</h3>
+    <img src="travailler_en_equipe.png" width="75%">      
+</body>
+</html>
